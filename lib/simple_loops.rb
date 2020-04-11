@@ -9,3 +9,13 @@ def loop_message_five_times(message)
   end
   puts array
 end
+
+def loop_message_n_times(message, n)
+  counter = 0
+  array = []
+  while counter < n
+  array.push(message)
+  counter += 1
+  end
+  puts array
+end
