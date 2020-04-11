@@ -7,5 +7,5 @@ def loop_message_five_times(message)
   array.push(message)
   counter += 1
   end
-  puts array[]
+  puts array
 end
